@@ -1,12 +1,10 @@
 1. Выберите из таблицы orders 3 самых дешевых заказа за всё время.
-Данные нужно отсортировать в порядке убывания цены.
 
 SELECT * FROM orders WHERE STATUS != 'cancelled' ORDER BY sum ASC LIMIT 3;
 
 ![image](https://github.com/user-attachments/assets/13430d6a-cc92-4ff5-920f-80e1c90f07aa)
 
 2. Выберите из таблицы orders 2 самых дорогих заказов за всё время.
-Данные нужно отсортировать в порядке убывания цены.
    
 SELECT * FROM orders WHERE STATUS != 'cancelled' ORDER BY sum DESC LIMIT 2;
 
